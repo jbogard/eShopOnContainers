@@ -20,7 +20,7 @@ $services = @(
     @{ Name="eshoppayment"; Image="eshop/payment.api"; File="src/Services/Payment/Payment.API/Dockerfile" },
     @{ Name="eshopocelotapigw"; Image="eshop/ocelotapigw"; File="src/ApiGateways/ApiGw-Base/Dockerfile" },
     @{ Name="eshopmobileshoppingagg"; Image="eshop/mobileshoppingagg"; File="src/ApiGateways/Mobile.Bff.Shopping/aggregator/Dockerfile" },
-    @{ Name="eshopwebshoppingagg"; Image="eshop/webshoppingagg"; File="src/ApiGateways/Web.Bff.Shopping/aggregator/Dockerfile" },
+    @{ Name="eshopwebshoppingagg"; Image="aggregator-local"; File="src/ApiGateways/Web.Bff.Shopping/aggregator/Dockerfile" },
     @{ Name="eshoporderingsignalrhub"; Image="eshop/ordering.signalrhub"; File="src/Services/Ordering/Ordering.SignalrHub/Dockerfile" }
 )
 

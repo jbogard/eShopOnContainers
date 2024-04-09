@@ -3,7 +3,7 @@ clusterName: eshop-aks
 pathBase: /webshoppingagg
 
 image:
-  repository: eshop/webshoppingagg
+  repository: aggregator-local
   tag: latest
   pullPolicy: IfNotPresent
 
